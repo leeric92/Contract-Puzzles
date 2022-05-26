@@ -8,6 +8,7 @@ describe("Game1", function() {
 
     // you must call unlock before you can win
 
+    await game.unlock();
     await game.win();
 
     // leave this assertion as-is
